@@ -15,7 +15,7 @@
         <section class="banner">
             <h1>PachaQTec</h1>                       
             <div class="introduction">
-                <h2 class="presentation">Hola, mi nombre<br> es Edwin Pérez.</h2></div>
+                <h2 class="presentation">Hola, mi nombre <br>es Edwin Pérez.</h2></div>
         </section>
         <section class="sobre-mi">
             <h2>Sobre mí</h2>
@@ -97,13 +97,15 @@
         <section class="contacto">
             <h2>Contacto</h2>
             <div class="contenido-form">
-            <div><input type="text" name="nombre" placeholder="nombre"></code>
-                <input type="text" name="apellido" placeholder="apellido"></code>
+                <form>
+            <div><input type="text" name="nombre" placeholder="Nombre" required pattern="[A-Za-z]+"></code>
+                <input type="text" name="apellido" placeholder="Apellido" required pattern="[A-Za-z]+"></code>
             </div>
-            <div><input type="email" name="e-mail" placeholder="e-mail"></code>
-                <input type="text" name="Teléfono" placeholder="Teléfono" pattern="[0-9]+"></code><br></div>
-            <textarea placeholder="Comenta" cols="88" rows="10"></textarea>
+            <div><input type="email" name="e-mail" placeholder="E-mail" required></code>
+                <input type="text" name="Teléfono" placeholder="Teléfono" pattern="[0-9]+" maxlength="9"></code><br></div>
+            <textarea placeholder="Escriba su inquietud" cols="88" rows="10"></textarea>
             <div><button>Enviar</button></div>
+        </form>
         </div>
         </section>
     </div>
