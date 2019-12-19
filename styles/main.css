@@ -39,6 +39,7 @@ textarea {
   width: 705px;
   padding: 10px;
 }
+
 /*Sección banner*/
 
 .banner {
@@ -90,20 +91,52 @@ textarea {
 .CV:hover {
   background-color: black;
 }
+
 /*Mis Skills*/
 
 .skills {
   background-color: rgb(168, 37, 92);
   height: 300px;
   text-decoration-line: none;
+ }
+
+ .barras-skill{
+   width:800px;
+   display: flex;
+   margin:auto;  
+      
+ }
+
+.divisor{
+  width:350px;
+  margin-right:20px;
+  margin-top:30px;
+  }
+
+
+.divisor div{
+  margin-bottom:10px;
 }
+
+ .barras-skill .contenedor{
+   background-color: #ded4f0;
+   height:20px;
+   border-radius: 10px;
+ }
+
+ .contenedor div{
+  background-color: #4c16af;
+  height:20px;
+  width:50%;
+  border-radius:8px;
+ }
 
 /*Portafolio*/
 
 .Portafolio {
   background-color: rgb(202, 184, 17);
   height: 300px;
-  justify-content: space-evenly;
+
 }
 
 .flex-portafolio div {
@@ -112,6 +145,7 @@ textarea {
   position: center;
   margin-top: 30px;
 }
+
 /*Clientes*/
 
 .clientes {
@@ -126,6 +160,7 @@ textarea {
   position: center;
   margin-top: 30px;
 }
+
 /*Contacto*/
 
 .contacto {
