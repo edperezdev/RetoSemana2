@@ -98,45 +98,52 @@ textarea {
   background-color: rgb(168, 37, 92);
   height: 300px;
   text-decoration-line: none;
- }
-
- .barras-skill{
-   width:800px;
-   display: flex;
-   margin:auto;  
-      
- }
-
-.divisor{
-  width:350px;
-  margin-right:20px;
-  margin-top:30px;
-  }
-
-
-.divisor div{
-  margin-bottom:10px;
 }
 
- .barras-skill .contenedor{
-   background-color: #ded4f0;
-   height:20px;
-   border-radius: 10px;
- }
+.barras-skill {
+  width: 800px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  font-family: Arial;
+  font-weight: bolder;
+}
 
- .contenedor div{
+.divisor1 {
+  width: 350px;
+  margin-top: 40px;
+}
+
+.divisor2 {
+  width: 350px;
+  right: 0px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+.divisor1 div,
+.divisor2 div {
+  margin-bottom: 10px;
+}
+
+.barras-skill .contenedor {
+  background-color: #ded4f0;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.contenedor div {
   background-color: #4c16af;
-  height:20px;
-  width:50%;
-  border-radius:8px;
- }
+  height: 20px;
+  width: 50%;
+  border-radius: 8px;
+}
 
 /*Portafolio*/
 
 .Portafolio {
   background-color: rgb(202, 184, 17);
   height: 300px;
-
 }
 
 .flex-portafolio div {
