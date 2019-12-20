@@ -9,7 +9,7 @@ h1 {
   text-align: center;
   color: white;
   font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana;
   font-weight: bold;
   padding-top: 40px;
 }
@@ -18,7 +18,7 @@ h2 {
   text-align: center;
   color: white;
   font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana;
   font-weight: bold;
   padding-top: 40px;
 }
@@ -45,13 +45,13 @@ textarea {
 .banner {
   background-image: url("./../images/fondo.jpg");
   background-size: 100%;
-  height: 300px;
+  height: 340px;
 }
 
 .introduction {
   background-color: rgba(138, 8, 138, 0.616);
   padding: 5px 5px;
-  margin: 50px 20px;
+  margin: 50px;
   border-radius: 20px;
   width: 200px;
   height: 150px;
@@ -72,31 +72,32 @@ textarea {
   height: 450px;
   text-decoration-line: none;
 }
-.CV {
+.cv-button {
   text-align: center;
-  background-color: rgb(80, 10, 80);
+  width:120px;
+  background-color: rgb(114, 33, 146);
   color: white;
-  font-size: 20px;
-  padding: 10px;
-  position: absolute;
-  left: 50%;
-  margin-left: -50px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 20px;
+  margin-left: 30px;
+  border-radius: 20px;
 }
 
-.CV:hover {
-  background-color: black;
+.cv-button:hover {
+  background-color: rgb(129, 32, 32);
 }
 
 /*Mis Skills*/
 
 .skills {
-  background-color: rgb(168, 37, 92);
-  height: 300px;
+  background-color: rgb(92, 4, 104);
+  height: 340px;
   text-decoration-line: none;
 }
 
 .barras-skill {
-  width: 800px;
+  width: 100%;
   display: flex;
   margin: auto;
   position: relative;
@@ -105,20 +106,22 @@ textarea {
 }
 
 .divisor1 {
-  width: 350px;
+  width: 42.5%;
   margin-top: 40px;
+  margin-left:5%;
 }
 
 .divisor2 {
-  width: 350px;
+  width: 42.5%;
   right: 0px;
   margin-top: 40px;
+  margin-right:5%;
   position: absolute;
 }
 
 .divisor1 div,
 .divisor2 div {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .barras-skill .contenedor {
@@ -128,9 +131,9 @@ textarea {
 }
 
 .contenedor div {
-  background-color: #4c16af;
+  background-color: #1ac7c7;
   height: 20px;
-  width: 50%;
+  width: 45%;
   border-radius: 8px;
 }
 
