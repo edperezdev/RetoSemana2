@@ -50,24 +50,19 @@ textarea {
 
 .introduction {
   background-color: rgba(138, 8, 138, 0.616);
-  padding-top: 5px;
-  padding-left: 10px;
-  margin-top: 60px;
-  margin-left: 20px;
-  text-align: center;
+  padding: 5px 5px;
+  margin: 50px 20px;
   border-radius: 20px;
-  position: absolute;
+  width: 200px;
+  height: 150px;
 }
 
 .presentation {
   font-family: "Lucida Sans";
   font-style: oblique;
-  display: inline-box;
-  padding-left: 0px;
-  padding-bottom: 60px;
-  margin-right: 10px;
-  margin-bottom: -10px;
-  position: relative;
+  padding: 5px;
+  margin-top: 20px;
+ 
 }
 
 /*Sobre mí*/
