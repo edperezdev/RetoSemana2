@@ -13,20 +13,20 @@
 <body>
     <div>
         <section class="banner">
-            <h1>PachaQTec</h1>                       
+            <h1>PachaQTec</h1>
             <div class="introduction">
                 <h2 class="presentation">Hola, mi nombre <br>es Edwin Pérez.</h2></div>
         </section>
         <section class="sobre-mi">
             <h2>Sobre mí</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio ipsam labore unde laboriosam rerum
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio ipsam labore unde laboriosam rerum
                 est eos nesciunt corrupti maxime eligendi deleniti illo laborum illum, ea minima asperiores dignissimos
                 magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nisi soluta exercitationem
                 natus veniam ea iste officiis? Eum quis sequi, placeat maxime unde eius, fugiat natus ipsam delectus
                 modi iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, ratione. Eos recusandae
                 officiis laborum molestias quidem magnam autem, unde error ea corrupti blanditiis nobis delectus eum
                 aperiam accusamus illum voluptatem.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ullam officia vitae ducimus, quod dolores vero laborum voluptate dignissimos sit ipsum cupiditate necessitatibus, autem, nam eos sed? Dolor, aliquam necessitatibus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ullam officia vitae ducimus, quod dolores vero laborum voluptate dignissimos sit ipsum cupiditate necessitatibus, autem, nam eos sed? Dolor, aliquam necessitatibus.</p></div>
 
             <button class="cv-button">Ver CV
             </button>
@@ -90,26 +90,26 @@
         </section>
         <section class="Portafolio">
             <h2>Portafolio</h2>
-            <article class="flex-portafolio">
-                <div><figure><img src="images/1.jpg" alt="cusqueña" width="50" height="50"></figure>
-                <figure><img src="images/2.jpg" alt="gloria" width="50" height="50"></figure>
-                <figure><img src="images/3.jpg" alt="pardos" width="50" height="50"></figure>
-                <figure><img src="images/4.jpg" alt="petroperu" width="50" height="50"></figure>
+            <article class="contenedor-portafolio">
+                <div><figure><img src="images/1.jpg" alt="ejemplo1"></figure>
+                <figure><img src="images/2.jpg" alt="ejemplo2"></figure>
+                <figure><img src="images/3.jpg" alt="ejemplo3"></figure>
+                <figure><img src="images/4.jpg" alt="ejemplo4"></figure>
             </div>
-               <div><figure><img src="images/5.jpg" alt="petroperu" width="50" height="50"></figure>
-                <figure><img src="images/6.jpg" alt="petroperu" width="50" height="50"></figure>
-                <figure><img src="images/7.jpg" alt="petroperu" width="50" height="50"></figure>
-                <figure><img src="images/8.jpg" alt="petroperu" width="50" height="50"></figure></div>
+               <div><figure><img src="images/5.jpg" alt="ejemplo5"></figure>
+                <figure><img src="images/6.jpg" alt="ejemplo6"></figure>
+                <figure><img src="images/7.jpg" alt="ejemplo7"></figure>
+                <figure><img src="images/8.jpg" alt="ejemplo8"></figure></div>
 
             </article>
         </section>
         <section class="clientes">
             <h2>Clientes</h2>
-            <article class="flex-clientes">
-                <figure><img src="images/cusquena.jpg" alt="cusqueña" width="100" height="50"></figure>
-                <figure><img src="images/gloria.jpg" alt="gloria" width="100" height="50"></figure>
-                <figure><img src="images/pardos.jpg" alt="pardos" width="100" height="50"></figure>
-                <figure><img src="images/petro.jpg" alt="petroperu" width="100" height="50"></figure>
+            <article class="contenedor-clientes">
+                <figure><img src="images/cusquena.jpg" alt="cusqueña"></figure>
+                <figure><img src="images/gloria.jpg" alt="gloria"></figure>
+                <figure><img src="images/pardos.jpg" alt="pardos"></figure>
+                <figure><img src="images/petro.jpg" alt="petroperu"></figure>
             </article>
         </section>
         <section class="contacto">
@@ -120,9 +120,11 @@
                 <input type="text" name="apellido" placeholder="Apellido" required pattern="[A-Za-z]+"></code>
             </div>
             <div><input type="email" name="e-mail" placeholder="E-mail" required></code>
-                <input type="text" name="Teléfono" placeholder="Teléfono" pattern="[0-9]+" maxlength="9"></code><br></div>
+                <input type="text" name="Teléfono" placeholder="Teléfono" pattern="[0-9]+" maxlength="9"></code></div>
             <textarea placeholder="Escriba su inquietud" cols="88" rows="10"></textarea>
-            <div><button>Enviar</button></div>
+            <div class="contact-buttons"><button>Enviar</button>
+                <button type="reset">Limpiar</button>
+            </div>
         </form>
         </div>
         </section>
